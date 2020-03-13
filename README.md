@@ -31,7 +31,7 @@ To build:
     cmake ..
     make
 ```
-## BTree
+## B*Tree
 This program contains two main functions "insert" and "search", both have their own corresponding spans.
 After building, the [Btree](./examples/App.cpp) program can be run
 with:
@@ -39,4 +39,5 @@ with:
 ```bash
     ./app ../examples/config.yml
 ```
-
+![](btree1.png)
+![](btree2.png)
